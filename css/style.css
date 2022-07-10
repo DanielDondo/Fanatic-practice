@@ -915,6 +915,13 @@ body {
     }
 }
 @media(max-width: 414px) {
+    .technology-top-inner {
+        min-height: 120vh;
+    }
+    .technology-btn {
+        right: 10%;
+        top: 45vh;
+    }
     .gallery-max,
     .gallery-min {
         gap: 10px;
@@ -928,9 +935,6 @@ body {
     }
     .technology-top-box {
         bottom: 30px;
-    }
-    .technology-top-inner {
-        min-height: 80vh;
     }
 }
 /*============================================================================*/
